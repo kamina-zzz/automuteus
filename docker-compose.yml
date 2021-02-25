@@ -4,7 +4,7 @@ services:
   automuteus:
     # Either:
     # - Use a prebuilt image
-    image: denverquane/amongusdiscord:${AUTOMUTEUS_TAG:?err}
+    image: kamina91/automuteus-jp-map:6.11.0-jp-map
     # - Build image from local source
     #build: .
     # - Build image from github directly
