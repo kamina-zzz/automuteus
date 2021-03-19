@@ -22,7 +22,7 @@ func (m *MapItem) String() string {
 	return m.Name
 }
 
-const BaseMapURL = "https://raw.githubusercontent.com/kamina-zzz/automuteus/6.11.0-jp-map/assets/maps/"
+const BaseMapURL = "https://raw.githubusercontent.com/kamina-zzz/automuteus/6.11.2-jp-map/assets/maps/"
 
 func NewMapItem(name string) (*MapItem, error) {
 	switch strings.ToLower(name) {
